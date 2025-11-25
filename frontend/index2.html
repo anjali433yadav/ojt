@@ -161,9 +161,26 @@ color:rgb(199, 198, 198);
 <section class="container1">
     
     <div class="convert">
-         <h3 style="color:#324569; padding-left: 100px;">Select Your Language </h3>
-        <!--<div>
-             <select>
+         <div style="display:flex; align-items:center; justify-content:center; gap:12px;">
+            <h3 style="color:#324569; margin:0;">Select Your Language</h3>
+            <div style="position:relative;">
+                <button id="select-lang-btn" style="padding:8px 14px; border-radius:8px; border:1px solid #324569; background:#6e8cff; color:#fff; cursor:pointer; min-width:120px; text-align:left;">
+                    Choose ▾
+                </button>
+                <div id="lang-dropdown" style="display:none; position:absolute; right:0; top:110%; background:#fff; color:#000; border:1px solid #324569; border-radius:8px; padding:6px; box-shadow:0 6px 18px rgba(0,0,0,0.08); z-index:20; min-width:160px;">
+                    <button class="lang-item" data-val="en" style="display:block; width:100%; text-align:left; padding:8px; border:none; background:transparent; cursor:pointer;">English</button>
+                    <button class="lang-item" data-val="es" style="display:block; width:100%; text-align:left; padding:8px; border:none; background:transparent; cursor:pointer;">Spanish</button>
+                    <button class="lang-item" data-val="fr" style="display:block; width:100%; text-align:left; padding:8px; border:none; background:transparent; cursor:pointer;">French</button>
+                    <button class="lang-item" data-val="de" style="display:block; width:100%; text-align:left; padding:8px; border:none; background:transparent; cursor:pointer;">German</button>
+                    <button class="lang-item" data-val="zh" style="display:block; width:100%; text-align:left; padding:8px; border:none; background:transparent; cursor:pointer;">Chinese</button>
+                    <button class="lang-item" data-val="ja" style="display:block; width:100%; text-align:left; padding:8px; border:none; background:transparent; cursor:pointer;">Japanese</button>
+                    <button class="lang-item" data-val="hi" style="display:block; width:100%; text-align:left; padding:8px; border:none; background:transparent; cursor:pointer;">Hindi</button>
+                    <button class="lang-item" data-val="ar" style="display:block; width:100%; text-align:left; padding:8px; border:none; background:transparent; cursor:pointer;">Arabic</button>
+                    <button class="lang-item" data-val="ru" style="display:block; width:100%; text-align:left; padding:8px; border:none; background:transparent; cursor:pointer;">Russian</button>
+                    <button class="lang-item" data-val="pt" style="display:block; width:100%; text-align:left; padding:8px; border:none; background:transparent; cursor:pointer;">Portuguese</button>
+                </div>
+                 <div style="margin-top:12px;">
+            <select id="lang-select" style="display:none;">
                 <option value="en">English</option>
                 <option value="es">Spanish</option>
                 <option value="fr">French</option>
@@ -174,9 +191,11 @@ color:rgb(199, 198, 198);
                 <option value="ar">Arabic</option>
                 <option value="ru">Russian</option>
                 <option value="pt">Portuguese</option>
-            </select> 
-        </div> -->
-    </div>
+            </select>
+            </div>
+            </div>
+            </div>
+            </div>
 </section>
 
 <section class="container2">
@@ -191,8 +210,31 @@ color:rgb(199, 198, 198);
 
         <!-- <a class="clear-btn" onclick="document.querySelector('textarea').value=''">🗑 Clear Input</a> -->
 
-        <textarea style="background-color: rgb(234, 241, 244);" placeholder="Your transition will show here"></textarea>
+        <div id="output" style="width:100%; height:130px; background-color: rgb(234, 241, 244); color:black; border:1px solid #4a5f8e; border-radius:10px; padding:12px; resize:none; font-size:15px; overflow-y:auto;"></div>
     </div>
 </section>
-</body>
-</html>
+<script>
+    (function(){
+        const btn = document.getElementById('select-lang-btn');
+        const dropdown = document.getElementById('lang-dropdown');
+        const items = document.querySelectorAll('.lang-item');
+        const select = document.getElementById('lang-select');
+
+        btn.addEventListener('click', (e) => {
+            e.stopPropagation();
+            dropdown.style.display = dropdown.style.display === 'block' ? 'none' : 'block';
+        });
+
+        items.forEach(it => {
+            it.addEventListener('click', (e) => {
+                const val = it.getAttribute('data-val');
+                const label = it.textContent.trim();
+                btn.textContent = label + ' ▾';
+                dropdown.style.display = 'none';
+                if (select) select.value = val;
+            });
+        });
+         document.addEventListener('click', () => dropdown.style.display = 'none');
+    })();
+</script>
+         

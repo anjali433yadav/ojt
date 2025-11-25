@@ -1,42 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+/* --- Custom Variables for Dark Theme --- */
+:root {
+    --primary-color: #6366f1; 
+    --primary-dark-bg: #1e293b; 
+    --card-dark-bg: #1f2937; 
+    --text-dark-primary: #e2e8f0; 
+    --text-dark-secondary: #94a3b8; 
+    --border-dark-color: #334155; 
+    --link-hover-color: #a78bfa; 
 }
 
-body{
-    font-family: Arial, sans-serif;
-}
-h1{
-    font-size: 10px;
-}
-
-.navbar{
+/* --- Body and Global Styles --- */
+body {
+    font-family: 'Inter', sans-serif;
+    background: linear-gradient(135deg, #1a202c, #2d3748); 
+    min-height: 100vh;
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
     align-items: center;
-    background: white;
-    padding: 15px 30px;
+    color: var(--text-dark-primary); 
 }
 
-.name{
-    color: Blue;
-    font-size: 24px;
+/* --- Custom Utility Classes --- */
+.dark-mode-bg {
+    background-color: var(--primary-dark-bg);
 }
 
-.nav{
-    list-style: none;
-    display: flex;
-    gap: 30px; /* gives spacing between words */
+.card-bg {
+    background-color: var(--card-dark-bg);
 }
 
-.nav a{
-    text-decoration: none;
-    color: rgb(49, 46, 46);
-    font-size: 18px;
+.text-custom-primary {
+    color: var(--primary-color);
 }
 
-.nav a:hover{
-    color: #8dd6e5;
+.text-custom-secondary {
+    color: var(--text-dark-secondary);
+}
+
+.border-custom-dark {
+    border-color: var(--border-dark-color);
+}
+
+/* Soft shadow matching screenshot */
+.shadow-custom {
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.4), 0 4px 6px -2px rgba(0, 0, 0, 0.2);
+}
+
+/* --- Select Dropdown Custom Arrow --- */
+.select-custom {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    /* Embed a white SVG down arrow */
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke-width='1.5' stroke='white' class='w-6 h-6'%3E%3Cpath stroke-linecap='round' stroke-linejoin='round' d='m19.5 8.25-7.5 7.5-7.5-7.5'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 0.75rem center;
+    background-size: 1.5em 1.5em;
+    padding-right: 2.5rem;
+}
+
+/* Specific styles to match the screenshot's 'active' look for language select */
+#language-select {
+    border-color: var(--primary-color);
+    color: var(--text-dark-primary);
+}
+
+/* Style for the 'swap languages' button */
+#swap-languages-btn {
+    background-color: #374151; /* Darker gray */
+    color: var(--primary-color);
+}
+#swap-languages-btn:hover {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+/* Theme toggle icon styling */
+.theme-icon-placeholder svg {
+    color: var(--text-dark-secondary);
+}
+.theme-icon-placeholder:hover svg {
+    color: var(--link-hover-color);
 }
