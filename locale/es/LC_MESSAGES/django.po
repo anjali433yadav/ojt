@@ -1,0 +1,139 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-12-04 09:58+0530\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? "
+"1 : 2;\n"
+#: .\core\templates\base.html:14
+msgid "Home"
+msgstr "Inicio"
+
+#: .\core\templates\base.html:15
+msgid "Services"
+msgstr "Servicios"
+
+#: .\core\templates\base.html:16
+msgid "Contact"
+msgstr "Contacto"
+
+#: .\core\templates\base.html:20
+msgid "Language"
+msgstr "Idioma"
+
+#: .\core\templates\contact.html:4
+msgid "Contact Us"
+msgstr "Contáctanos"
+
+#: .\core\templates\contact.html:5
+msgid "We love hearing from our users and clients around the world."
+msgstr "os encanta recibir noticias de nuestros usuarios y clientes de todo el mundo."
+
+#: .\core\templates\contact.html:6
+msgid ""
+"If you have questions, feedback, or collaboration ideas, feel free to reach "
+"out."
+msgstr "Si tienes preguntas, comentarios o ideas de colaboración, no dudes en comunicarte."
+
+#: .\core\templates\contact.html:7
+msgid ""
+"Our support team responds quickly and is available in multiple languages."
+msgstr "Nuestro equipo de soporte responde rápidamente y está disponible en varios idiomas."
+
+#: .\core\templates\contact.html:8
+msgid "You can use the contact form below or email us directly anytime."
+msgstr "Puedes usar el formulario de contacto a continuación o enviarnos un correo directamente en cualquier momento."
+
+#: .\core\templates\contact.html:9
+msgid ""
+"We value clear communication and strive to make every interaction meaningful."
+msgstr "Valoramos la comunicación clara y nos esforzamos por hacer que cada interacción sea significativa."
+
+#: .\core\templates\contact.html:10
+msgid ""
+"Thank you for visiting our multilingual CMS platform—your journey starts "
+"here."
+msgstr "Gracias por visitar nuestra plataforma CMS multilingüe: tu viaje comienza aquí."
+
+#: .\core\templates\home.html:4
+msgid "Welcome to Our Website"
+msgstr "Bienvenido a nuestro sitio web"
+
+#: .\core\templates\home.html:5
+msgid ""
+"Our platform is designed to deliver high‑quality digital experiences to "
+"users across the world."
+msgstr "Nuestra plataforma está diseñada para ofrecer experiencias digitales de alta calidad a usuarios de todo el mundo."
+
+#: .\core\templates\home.html:6
+msgid ""
+"We focus on building simple, clean, and multilingual websites for everyone."
+msgstr "Nos enfocamos en crear sitios web simples, limpios y multilingües para todos."
+
+#: .\core\templates\home.html:7
+msgid ""
+"This mini CMS allows you to browse content in your preferred language easily."
+msgstr "Este mini CMS le permite navegar fácilmente el contenido en su idioma preferido."
+
+#: .\core\templates\home.html:8
+msgid ""
+"We believe language should never be a barrier, and our tools help break that "
+"wall."
+msgstr "Creemos que el idioma nunca debe ser una barrera, y nuestras herramientas ayudan a derribar ese muro."
+
+#: .\core\templates\home.html:9
+msgid ""
+"Select any language from the menu above to instantly translate the full "
+"content."
+msgstr "Seleccione cualquier idioma en el menú de arriba para traducir instantáneamente todo el contenido."
+
+#: .\core\templates\home.html:10
+msgid ""
+"Only the project title remains constant to keep the brand identity intact."
+msgstr "Solo el título del proyecto permanece constante para mantener la identidad de la marca."
+
+#: .\core\templates\services.html:4
+msgid "Our Services"
+msgstr "Nuestros servicios"
+
+#: .\core\templates\services.html:5
+msgid "We offer multilingual website development tailored to global audiences."
+msgstr "Ofrecemos desarrollo de sitios web multilingües adaptados a audiencias globales."
+
+#: .\core\templates\services.html:6
+msgid ""
+"Our team creates responsive interfaces that adapt beautifully to all devices."
+msgstr "Nuestro equipo crea interfaces responsivas que se adaptan perfectamente a todos los dispositivos."
+
+#: .\core\templates\services.html:7
+msgid ""
+"We integrate CMS tools that allow administrators to update content easily."
+msgstr "Integramos herramientas CMS que permiten a los administradores actualizar el contenido fácilmente."
+
+#: .\core\templates\services.html:8
+msgid "Language management is simple—new languages can be added anytime."
+msgstr "La gestión de idiomas es sencilla — se pueden agregar nuevos idiomas en cualquier momento."
+
+#: .\core\templates\services.html:9
+msgid ""
+"We provide translation support using Django's internationalization system."
+msgstr "Proporcionamos soporte de traducción utilizando el sistema de internacionalización de Django"
+
+#: .\core\templates\services.html:10
+msgid ""
+"Our goal is to help you expand your digital presence across borders "
+"effortlessly."
+msgstr "Nuestro objetivo es ayudarle a expandir su presencia digital más allá de las fronteras sin esfuerzo."

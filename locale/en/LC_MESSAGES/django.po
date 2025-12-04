@@ -1,0 +1,140 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-12-04 09:55+0530\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+#: .\core\templates\base.html:14
+msgid "Home"
+msgstr "Home"
+
+#: .\core\templates\base.html:15
+msgid "Services"
+msgstr "Services"
+
+#: .\core\templates\base.html:16
+msgid "Contact"
+msgstr "Contact"
+
+#: .\core\templates\base.html:20
+msgid "Language"
+msgstr "Language"
+
+#: .\core\templates\contact.html:4
+msgid "Contact Us"
+msgstr "Contact Us"
+
+#: .\core\templates\contact.html:5
+msgid "We love hearing from our users and clients around the world."
+msgstr "We love hearing from our users and clients around the world"
+
+#: .\core\templates\contact.html:6
+msgid ""
+"If you have questions, feedback, or collaboration ideas, feel free to reach "
+"out."
+msgstr "If you have questions, feedback, or collaboration ideas, feel free to reach "
+"out"
+
+#: .\core\templates\contact.html:7
+msgid ""
+"Our support team responds quickly and is available in multiple languages."
+msgstr "Our support team responds quickly and is available in multiple languages."
+
+#: .\core\templates\contact.html:8
+msgid "You can use the contact form below or email us directly anytime."
+msgstr "You can use the contact form below or email us directly anytime."
+
+#: .\core\templates\contact.html:9
+msgid ""
+"We value clear communication and strive to make every interaction meaningful."
+msgstr "We value clear communication and strive to make every interaction meaningful."
+
+#: .\core\templates\contact.html:10
+msgid ""
+"Thank you for visiting our multilingual CMS platform—your journey starts "
+"here."
+msgstr "Thank you for visiting our multilingual CMS platform—your journey starts "
+
+#: .\core\templates\home.html:4
+msgid "Welcome to Our Website"
+msgstr "Welcome to Our Website"
+
+#: .\core\templates\home.html:5
+msgid ""
+"Our platform is designed to deliver high‑quality digital experiences to "
+"users across the world."
+msgstr "Our platform is designed to deliver high‑quality digital experiences to "
+"users across the world."
+
+#: .\core\templates\home.html:6
+msgid ""
+"We focus on building simple, clean, and multilingual websites for everyone."
+msgstr "We focus on building simple, clean, and multilingual websites for everyone"
+
+#: .\core\templates\home.html:7
+msgid ""
+"This mini CMS allows you to browse content in your preferred language easily."
+msgstr ""
+
+#: .\core\templates\home.html:8
+msgid ""
+"We believe language should never be a barrier, and our tools help break that "
+"wall."
+msgstr ""
+
+#: .\core\templates\home.html:9
+msgid ""
+"Select any language from the menu above to instantly translate the full "
+"content."
+msgstr ""
+
+#: .\core\templates\home.html:10
+msgid ""
+"Only the project title remains constant to keep the brand identity intact."
+msgstr ""
+
+#: .\core\templates\services.html:4
+msgid "Our Services"
+msgstr ""
+
+#: .\core\templates\services.html:5
+msgid "We offer multilingual website development tailored to global audiences."
+msgstr ""
+
+#: .\core\templates\services.html:6
+msgid ""
+"Our team creates responsive interfaces that adapt beautifully to all devices."
+msgstr ""
+
+#: .\core\templates\services.html:7
+msgid ""
+"We integrate CMS tools that allow administrators to update content easily."
+msgstr ""
+
+#: .\core\templates\services.html:8
+msgid "Language management is simple—new languages can be added anytime."
+msgstr ""
+
+#: .\core\templates\services.html:9
+msgid ""
+"We provide translation support using Django's internationalization system."
+msgstr ""
+
+#: .\core\templates\services.html:10
+msgid ""
+"Our goal is to help you expand your digital presence across borders "
+"effortlessly."
+msgstr ""
