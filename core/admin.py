@@ -1,21 +1,26 @@
 from django.contrib import admin
+import core.translation
 
-# Register your models here.
 from django.contrib import admin
-from .models import HomePage, Service, ContactPage
+from modeltranslation.admin import TranslationAdmin
+from .models import HomePage, ServicesPage, ContactPage
 
 
 @admin.register(HomePage)
-class HomePageAdmin(admin.ModelAdmin):
-    list_display = ("title_en", "title_fr", "title_de", "title_es")
+class HomePageAdmin(TranslationAdmin):
+    pass
 
 
-@admin.register(Service)
-class ServiceAdmin(admin.ModelAdmin):
-    list_display = ("title_en", "title_fr", "title_de", "title_es")
-    search_fields = ("title_en", "title_fr")
+@admin.register(ServicesPage)
+class ServicesPageAdmin(TranslationAdmin):
+    pass
 
 
 @admin.register(ContactPage)
-class ContactPageAdmin(admin.ModelAdmin):
-    list_display = ("email", "phone")
+class ContactPageAdmin(TranslationAdmin):
+    pass
+from django.contrib import admin
+
+
+
+

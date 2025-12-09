@@ -3,9 +3,8 @@
 <html lang="{{ LANGUAGE_CODE }}">
 <head>
 <meta charset="UTF-8">
-<title>My Multi‑Language CMS</title> <!-- DO NOT TRANSLATE -->
+<title>My Multi‑Language CMS</title> 
 <link rel="stylesheet" href="/static/css/style.css">
-<script src="/static/js/lang.js"></script>
 </head>
 <body>
 <nav class="navbar">
@@ -19,12 +18,12 @@
 <li class="dropdown">
 <span>{% trans "Language" %} ▼</span>
 <div class="dropdown-content">
-    <form action="/i18n/setlang/" method="post">{% csrf_token %}
+    <form action="{% url 'set_language' %}" >{% csrf_token %}
         <input type="hidden" name="next" value="{{ request.path }}">
-        <button name="language" value="en">English</button>
-        <button name="language" value="fr">Français</button>
-        <button name="language" value="es">Español</button>
-        <button name="language" value="de">Deutsch</button>
+        <button name="language" value="en" > <a style="color: black;" href="/en/">en-English</a></button>
+        <button name="language" value="fr"> <a style="color: black;"  href="/fr/">fr-Français</a></button>
+        <button name="language" value="es"> <a style="color: black;"  href="/es/">es-Español</a></button>
+        <button name="language" value="de"> <a style="color: black;"  href="/de/">de-Deutsch</a></button>
     </form>
 </div>
 </li>

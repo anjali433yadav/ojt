@@ -1,11 +1,10 @@
 {% extends 'base.html' %}
-{% load i18n %}
 {% block content %}
-<h1 style="color:blue;">{% trans "Contact Us" %}</h1>
-<p>{% trans "We love hearing from our users and clients around the world." %}</p>
-<p>{% trans "If you have questions, feedback, or collaboration ideas, feel free to reach out." %}</p>
-<p>{% trans "Our support team responds quickly and is available in multiple languages." %}</p>
-<p>{% trans "You can use the contact form below or email us directly anytime." %}</p>
-<p>{% trans "We value clear communication and strive to make every interaction meaningful." %}</p>
-<p>{% trans "Thank you for visiting our multilingual CMS platform—your journey starts here." %}</p>
+<h1>{{ page.title }}</h1>
+<p>{{ page.p1 }}</p>
+<p>{{ page.p2 }}</p>
+<p>{{ page.p3 }}</p>
+<p>{{ page.p4 }}</p>
+<p>{{ page.p5 }}</p>
+<p>{{ page.p6 }}</p>
 {% endblock %}

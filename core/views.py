@@ -1,11 +1,18 @@
+
 from django.shortcuts import render
+from .models import HomePage, ServicesPage, ContactPage
 
 def home(request):
-    return render(request, 'home.html')
+    page = HomePage.objects.first()
+    return render(request, "home.html", {"page": page})
+
 
 def services(request):
-    return render(request, 'services.html')
+    page = ServicesPage.objects.first()
+    return render(request, "services.html", {"page": page})
+
 
 def contact(request):
-    return render(request, 'contact.html')
+    page = ContactPage.objects.first()
+    return render(request, "contact.html", {"page": page})
 

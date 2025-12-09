@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-12-04 09:58+0530\n"
+"POT-Creation-Date: 2025-12-09 14:51+0530\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,6 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
 #: .\core\templates\base.html:14
 msgid "Home"
 msgstr "Startseite"
@@ -33,106 +34,123 @@ msgstr "Kontakt"
 msgid "Language"
 msgstr "Sprache"
 
-#: .\core\templates\contact.html:4
-msgid "Contact Us"
-msgstr "Kontaktieren Sie uns"
+#~ msgid "Contact Us"
+#~ msgstr "Kontaktieren Sie uns"
 
-#: .\core\templates\contact.html:5
-msgid "We love hearing from our users and clients around the world."
-msgstr "Wir hören gerne von unseren Nutzern und Kunden aus aller Welt."
+#~ msgid "We love hearing from our users and clients around the world."
+#~ msgstr "Wir hören gerne von unseren Nutzern und Kunden aus aller Welt."
 
-#: .\core\templates\contact.html:6
-msgid ""
-"If you have questions, feedback, or collaboration ideas, feel free to reach "
-"out."
-msgstr "Wenn Sie Fragen, Feedback oder Ideen zur Zusammenarbeit haben, kontaktieren Sie uns gerne."
+#~ msgid ""
+#~ "If you have questions, feedback, or collaboration ideas, feel free to "
+#~ "reach out."
+#~ msgstr ""
+#~ "Wenn Sie Fragen, Feedback oder Ideen zur Zusammenarbeit haben, "
+#~ "kontaktieren Sie uns gerne."
 
-#: .\core\templates\contact.html:7
-msgid ""
-"Our support team responds quickly and is available in multiple languages."
-msgstr "Unser Support-Team antwortet schnell und ist in mehreren Sprachen verfügbar."
+#~ msgid ""
+#~ "Our support team responds quickly and is available in multiple languages."
+#~ msgstr ""
+#~ "Unser Support-Team antwortet schnell und ist in mehreren Sprachen "
+#~ "verfügbar."
 
-#: .\core\templates\contact.html:8
-msgid "You can use the contact form below or email us directly anytime."
-msgstr "Sie können das Kontaktformular unten verwenden oder uns jederzeit direkt per E-Mail erreichen."
+#~ msgid "You can use the contact form below or email us directly anytime."
+#~ msgstr ""
+#~ "Sie können das Kontaktformular unten verwenden oder uns jederzeit direkt "
+#~ "per E-Mail erreichen."
 
-#: .\core\templates\contact.html:9
-msgid ""
-"We value clear communication and strive to make every interaction meaningful."
-msgstr "Wir schätzen klare Kommunikation und bemühen uns, jede Interaktion bedeutungsvoll zu gestalten."
+#~ msgid ""
+#~ "We value clear communication and strive to make every interaction "
+#~ "meaningful."
+#~ msgstr ""
+#~ "Wir schätzen klare Kommunikation und bemühen uns, jede Interaktion "
+#~ "bedeutungsvoll zu gestalten."
 
-#: .\core\templates\contact.html:10
-msgid ""
-"Thank you for visiting our multilingual CMS platform—your journey starts "
-"here."
-msgstr "Vielen Dank für Ihren Besuch auf unserer mehrsprachigen CMS-Plattform – Ihre Reise beginnt hier."
+#~ msgid ""
+#~ "Thank you for visiting our multilingual CMS platform—your journey starts "
+#~ "here."
+#~ msgstr ""
+#~ "Vielen Dank für Ihren Besuch auf unserer mehrsprachigen CMS-Plattform – "
+#~ "Ihre Reise beginnt hier."
 
-#: .\core\templates\home.html:4
-msgid "Welcome to Our Website"
-msgstr "Willkommen auf unserer Website"
+#~ msgid "Welcome to Our Website"
+#~ msgstr "Willkommen auf unserer Website"
 
-#: .\core\templates\home.html:5
-msgid ""
-"Our platform is designed to deliver high‑quality digital experiences to "
-"users across the world."
-msgstr "Unsere Plattform wurde entwickelt, um Nutzern auf der ganzen Welt hochwertige digitale Erlebnisse zu bieten."
+#~ msgid ""
+#~ "Our platform is designed to deliver high‑quality digital experiences to "
+#~ "users across the world."
+#~ msgstr ""
+#~ "Unsere Plattform wurde entwickelt, um Nutzern auf der ganzen Welt "
+#~ "hochwertige digitale Erlebnisse zu bieten."
 
-#: .\core\templates\home.html:6
-msgid ""
-"We focus on building simple, clean, and multilingual websites for everyone."
-msgstr "Wir konzentrieren uns darauf, einfache, klare und mehrsprachige Websites für alle zu erstellen."
+#~ msgid ""
+#~ "We focus on building simple, clean, and multilingual websites for "
+#~ "everyone."
+#~ msgstr ""
+#~ "Wir konzentrieren uns darauf, einfache, klare und mehrsprachige Websites "
+#~ "für alle zu erstellen."
 
-#: .\core\templates\home.html:7
-msgid ""
-"This mini CMS allows you to browse content in your preferred language easily."
-msgstr "Dieses Mini-CMS ermöglicht es Ihnen, Inhalte ganz einfach in Ihrer bevorzugten Sprache zu durchsuchen."
+#~ msgid ""
+#~ "This mini CMS allows you to browse content in your preferred language "
+#~ "easily."
+#~ msgstr ""
+#~ "Dieses Mini-CMS ermöglicht es Ihnen, Inhalte ganz einfach in Ihrer "
+#~ "bevorzugten Sprache zu durchsuchen."
 
-#: .\core\templates\home.html:8
-msgid ""
-"We believe language should never be a barrier, and our tools help break that "
-"wall."
-msgstr "Wir glauben, dass Sprache niemals eine Barriere sein sollte, und unsere Werkzeuge helfen, diese Mauer zu durchbrechen"
+#~ msgid ""
+#~ "We believe language should never be a barrier, and our tools help break "
+#~ "that wall."
+#~ msgstr ""
+#~ "Wir glauben, dass Sprache niemals eine Barriere sein sollte, und unsere "
+#~ "Werkzeuge helfen, diese Mauer zu durchbrechen"
 
-#: .\core\templates\home.html:9
-msgid ""
-"Select any language from the menu above to instantly translate the full "
-"content."
-msgstr "Wählen Sie eine Sprache im obigen Menü aus, um den gesamten Inhalt sofort zu übersetzen."
+#~ msgid ""
+#~ "Select any language from the menu above to instantly translate the full "
+#~ "content."
+#~ msgstr ""
+#~ "Wählen Sie eine Sprache im obigen Menü aus, um den gesamten Inhalt sofort "
+#~ "zu übersetzen."
 
-#: .\core\templates\home.html:10
-msgid ""
-"Only the project title remains constant to keep the brand identity intact."
-msgstr "Nur der Projekttitel bleibt gleich, um die Markenidentität zu bewahren."
+#~ msgid ""
+#~ "Only the project title remains constant to keep the brand identity intact."
+#~ msgstr ""
+#~ "Nur der Projekttitel bleibt gleich, um die Markenidentität zu bewahren."
 
-#: .\core\templates\services.html:4
-msgid "Our Services"
-msgstr "Unsere Dienstleistungen"
+#~ msgid "Our Services"
+#~ msgstr "Unsere Dienstleistungen"
 
-#: .\core\templates\services.html:5
-msgid "We offer multilingual website development tailored to global audiences."
-msgstr "Wir bieten die Entwicklung mehrsprachiger Websites an, die auf ein globales Publikum zugeschnitten sind."
+#~ msgid ""
+#~ "We offer multilingual website development tailored to global audiences."
+#~ msgstr ""
+#~ "Wir bieten die Entwicklung mehrsprachiger Websites an, die auf ein "
+#~ "globales Publikum zugeschnitten sind."
 
-#: .\core\templates\services.html:6
-msgid ""
-"Our team creates responsive interfaces that adapt beautifully to all devices."
-msgstr "Unser Team erstellt responsive Benutzeroberflächen, die sich perfekt an alle Geräte anpassen."
+#~ msgid ""
+#~ "Our team creates responsive interfaces that adapt beautifully to all "
+#~ "devices."
+#~ msgstr ""
+#~ "Unser Team erstellt responsive Benutzeroberflächen, die sich perfekt an "
+#~ "alle Geräte anpassen."
 
-#: .\core\templates\services.html:7
-msgid ""
-"We integrate CMS tools that allow administrators to update content easily."
-msgstr "Wir integrieren CMS-Tools, die Administratoren eine einfache Aktualisierung der Inhalte ermöglichen."
+#~ msgid ""
+#~ "We integrate CMS tools that allow administrators to update content easily."
+#~ msgstr ""
+#~ "Wir integrieren CMS-Tools, die Administratoren eine einfache "
+#~ "Aktualisierung der Inhalte ermöglichen."
 
-#: .\core\templates\services.html:8
-msgid "Language management is simple—new languages can be added anytime."
-msgstr "Die Sprachverwaltung ist einfach — neue Sprachen können jederzeit hinzugefügt werden."
+#~ msgid "Language management is simple—new languages can be added anytime."
+#~ msgstr ""
+#~ "Die Sprachverwaltung ist einfach — neue Sprachen können jederzeit "
+#~ "hinzugefügt werden."
 
-#: .\core\templates\services.html:9
-msgid ""
-"We provide translation support using Django's internationalization system."
-msgstr "Wir bieten Übersetzungsunterstützung mit dem Internationalisierungssystem von Django"
+#~ msgid ""
+#~ "We provide translation support using Django's internationalization system."
+#~ msgstr ""
+#~ "Wir bieten Übersetzungsunterstützung mit dem Internationalisierungssystem "
+#~ "von Django"
 
-#: .\core\templates\services.html:10
-msgid ""
-"Our goal is to help you expand your digital presence across borders "
-"effortlessly."
-msgstr "Unser Ziel ist es, Ihnen zu helfen, Ihre digitale Präsenz mühelos über Grenzen hinweg auszubauen."
+#~ msgid ""
+#~ "Our goal is to help you expand your digital presence across borders "
+#~ "effortlessly."
+#~ msgstr ""
+#~ "Unser Ziel ist es, Ihnen zu helfen, Ihre digitale Präsenz mühelos über "
+#~ "Grenzen hinweg auszubauen."

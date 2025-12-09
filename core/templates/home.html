@@ -1,16 +1,14 @@
 {% extends 'base.html' %}
-{% load i18n %}
 {% block content %}
 <div>
-<h1>{% trans "Welcome to Our Website" %}</h1>
-<div>
-<p>{% trans "Our platform is designed to deliver high‑quality digital experiences to users across the world." %}</p>
-<p>{% trans "We focus on building simple, clean, and multilingual websites for everyone." %}</p>
-<p>{% trans "This mini CMS allows you to browse content in your preferred language easily." %}</p>
-<p>{% trans "We believe language should never be a barrier, and our tools help break that wall." %}</p>
-<p>{% trans "Select any language from the menu above to instantly translate the full content." %}</p>
-<p>{% trans "Only the project title remains constant to keep the brand identity intact." %}</p>
-</div>
+    <h1>{{ page.title }}</h1>
+    <div>
+        <p>{{ page.p1 }}</p>
+        <p>{{ page.p2 }}</p>
+        <p>{{ page.p3 }}</p>
+        <p>{{ page.p4 }}</p>
+        <p>{{ page.p5 }}</p>
+        <p>{{ page.p6 }}</p>
+    </div>
 </div>
 {% endblock %}
-

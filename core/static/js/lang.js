@@ -1,1 +1,0 @@
-console.log("Language switcher loaded successfully.");
